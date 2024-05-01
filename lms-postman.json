@@ -1,0 +1,92 @@
+{
+    "info": {
+        "name": "FastAPI API",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "read_users",
+            "request": {
+                "url": "http://localhost:8000/users",
+                "method": "GET"
+            }
+        },
+        {
+            "name": "create_new_user",
+            "request": {
+                "url": "http://localhost:8000/users",
+                "method": "POST"
+            }
+        },
+        {
+            "name": "read_user",
+            "request": {
+                "url": "http://localhost:8000/users/{user_id}",
+                "method": "GET"
+            }
+        },
+        {
+            "name": "get_courses",
+            "request": {
+                "url": "http://localhost:8000/courses",
+                "method": "GET"
+            }
+        },
+        {
+            "name": "create_course_api",
+            "request": {
+                "url": "http://localhost:8000/courses",
+                "method": "POST"
+            }
+        },
+        {
+            "name": "read_course",
+            "request": {
+                "url": "http://localhost:8000/courses/{id}",
+                "method": "GET"
+            }
+        },
+        {
+            "name": "read_course",
+            "request": {
+                "url": "http://localhost:8000/courses/{id}",
+                "method": "PATCH"
+            }
+        },
+        {
+            "name": "read_course",
+            "request": {
+                "url": "http://localhost:8000/courses/{id}",
+                "method": "DELETE"
+            }
+        },
+        {
+            "name": "read_course_sections",
+            "request": {
+                "url": "http://localhost:8000/courses/{id}/sections",
+                "method": "GET"
+            }
+        },
+        {
+            "name": "read_section",
+            "request": {
+                "url": "http://localhost:8000/sections/{id}",
+                "method": "GET"
+            }
+        },
+        {
+            "name": "read_section_content_blocks",
+            "request": {
+                "url": "http://localhost:8000/sections/{id}/content-blocks",
+                "method": "GET"
+            }
+        },
+        {
+            "name": "read_content_block",
+            "request": {
+                "url": "http://localhost:8000/content-blocks/{id}",
+                "method": "GET"
+            }
+        }
+    ]
+}
