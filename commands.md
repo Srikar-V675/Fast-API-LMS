@@ -12,6 +12,9 @@ step 4: terminal `poetry install` -> creates env in project folder and activates
 <br>
 step 5: to install required packages -> terminal `poetry add <package name>`
 
+### **Commands**
+>`poetry add -D <package name>` -> install dev dependencies
+
 ## Alembic - DB Migrations Manager
 ### **Steps**
 > step 1: terminal `alembic init <folder name>` -> <folder name> name of folder inside project dir
